@@ -1,0 +1,94 @@
+{
+    "name": "ember-snippets",
+    "displayName": "Ember JS",
+    "description": "ember js snippet for development",
+    "version": "1.0.0",
+    "publisher": "Hridoy",
+    "icon": "img/icon.png",
+    "galleryBanner": {
+		"color": "#1E81C1",
+		"theme": "light"
+    },
+    "license": "SEE LICENSE IN LICENSE.md",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/hridoy/ember-js-snippets-vscode"
+    },
+    "keywords": [
+        "Ember",
+        "Ember.js Snippet",
+        "Ember Snippets",
+        "javascript",
+        "Ember.js"
+    ],
+    "engines": {
+        "vscode": "^1.15.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "'javascript'",
+                "path": "./snippets/app.json"
+            },
+            {
+                "language": "'javascript'",
+                "path": "./snippets/component.json"
+            },
+            {
+                "language": "'javascript'",
+                "path": "./snippets/controller.json"
+            },
+            {
+                "language": "'javascript'",
+                "path": "./snippets/handlebars.json"
+            },
+            {
+                "language": "'javascript'",
+                "path": "./snippets/helper.json"
+            },
+            {
+                "language": "'javascript'",
+                "path": "./snippets/mixin.json"
+            },
+            {
+                "language": "'javascript'",
+                "path": "./snippets/model.json"
+            },
+            {
+                "language": "'javascript'",
+                "path": "./snippets/object.json"
+            },
+            {
+                "language": "'javascript'",
+                "path": "./snippets/observes.json"
+            },
+            {
+                "language": "'javascript'",
+                "path": "./snippets/property.json"
+            },
+            {
+                "language": "'javascript'",
+                "path": "./snippets/route.json"
+            },
+            {
+                "language": "'javascript'",
+                "path": "./snippets/router.json"
+            },
+            {
+                "language": "'javascript'",
+                "path": "./snippets/service.json"
+            },
+            {
+                "language": "'javascript'",
+                "path": "./snippets/store.json"
+            },
+            {
+                "language": "'javascript'",
+                "path": "./snippets/view.json"
+            }
+        ]
+    }
+}
